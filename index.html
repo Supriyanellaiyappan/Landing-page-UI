@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunscape</title>
+    <link rel="stylesheet" href="project1.css" />
+  </head>
+  <body>
+    <div style="position: relative; background-color: brown">
+      <img
+        style="width: 100px; height: 100px; margin-left: 10%"
+        src="logo2 icon.ico"
+        alt="logo"
+      />
+      <table>
+        <tr>
+          <td>
+            <button>HOME</button>
+          </td>
+          <td><button id="aboutus">ABOUT US</button></td>
+          <td><button id="contactus">CONTACT US</button></td>
+          <td style="padding-left: 90px">
+            <img
+              style="width: 50px; height: 50px"
+              src="https://img.icons8.com/?size=100&id=119528&format=png&color=000000"
+              alt="planeicon"
+            />
+          </td>
+        </tr>
+      </table>
+    </div>
+    <h1
+      style="
+        text-align: center;
+        color: #000;
+        font-family: cursive;
+        font-weight: 100;
+        margin-top: 20px;
+      "
+    >
+      Welcome to Sunscape
+    </h1>
+    <p
+      style="
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-large;
+        color: darkcyan;
+        font-weight: 200;
+        line-height: 1.5;
+        width: 96%;
+        margin: 30px;
+      "
+    >
+      Sunscape Pvt. Ltd, a proud subsidiary of the Sangam Group of Hotels—one of
+      South Tamil Nadu’s largest hotel chains—continues a legacy of excellence
+      since 1968. With 19 properties across Tamil Nadu, the Sangam Group is
+      known for impeccable service and outstanding hospitality. Built on this
+      strong foundation, Sunscape aims to deliver exceptional holiday
+      experiences and complete customer satisfaction. Whether you're planning a
+      dream vacation, corporate retreat, or educational tour, Sunscape offers
+      swift, reliable solutions. As one of South India's leading destination
+      management companies, we provide everything from tour planning to
+      transport and hotel bookings. With the experience and infrastructure to
+      meet every need, Sunscape ensures every journey is seamless and memorable.
+    </p>
+    <div class="wrapper">
+      <div class="menu">
+        <button class="active" data-index="0">Explore</button>
+        <button data-index="1">Bali</button>
+        <button data-index="2">Maldives</button>
+        <button data-index="3">Dubai</button>
+        <button data-index="4">Nature</button>
+        <button data-index="5">Singapore</button>
+      </div>
+
+      <div class="image-container" aria-label="Video slider">
+        <div class="slider" id="slider">
+          <div class="slide">
+            <video muted playsinline>
+              <source src="sunbeach.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="slide">
+            <h3
+              style="
+                color: whitesmoke;
+                position: absolute;
+                font-family: cursive;
+                font-size: 40px;
+                font-style: italic;
+                font-weight: 200;
+                margin-left: 43%;
+                margin-top: 15%;
+              "
+            >
+              Explore the
+            </h3>
+            <h3
+              style="
+                color: yellow;
+                position: absolute;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                  'Helvetica Neue', sans-serif;
+                font-size: 40px;
+                font-style: italic;
+                font-weight: 100;
+                margin-left: 45%;
+                margin-top: 17%;
+              "
+            >
+              Love of Nature
+            </h3>
+            <video muted playsinline>
+              <source src="bali.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="slide">
+            <h3
+              style="
+                color: yellow;
+                position: absolute;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                  'Helvetica Neue', sans-serif;
+                font-size: 40px;
+                font-style: italic;
+                font-weight: 100;
+                margin-left: 40%;
+                margin-top: 17%;
+              "
+            >
+              Love in Every Wave
+            </h3>
+            <video muted playsinline>
+              <source src="maldives.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="slide">
+            <video muted playsinline>
+              <source src="dubai.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="slide">
+            <video muted playsinline>
+              <source src="Nature.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="slide">
+            <h3
+              style="
+                color: black;
+                position: absolute;
+                font-family: fantasy;
+                font-size: 40px;
+                font-style: italic;
+                font-weight: 100;
+                margin-left: 37%;
+                margin-top: 5%;
+              "
+            >
+              Streets and Scenic Shores
+            </h3>
+            <video muted playsinline>
+              <source src="Malaysia.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="position: relative">
+      <img
+        class="sideimg"
+        src="https://img.freepik.com/free-photo/top-view-hand-holding-smartphone_23-2149617681.jpg?semt=ais_hybrid&w=740"
+        alt="services"
+      />
+      <h1
+        style="
+          position: absolute;
+          text-align: center;
+          color: #000;
+          font-family: cursive;
+          font-weight: 100;
+          margin-top: 40px;
+          right: 17%;
+        "
+      >
+        Our Services
+      </h1>
+      <p class="sidepara">
+        At Sunscape Pvt. Ltd, we’re dedicated to delivering exceptional travel
+        experiences tailored to your needs. Backed by decades of industry
+        expertise and powered by a passion for hospitality, we offer a wide
+        range of services that ensure stress-free, memorable journeys for
+        individuals, families, corporates, and institutions.
+      </p>
+    </div>
+    <div style="position: relative">
+      <h1
+        id="aboutSection"
+        style="
+          position: absolute;
+          text-align: center;
+          color: brown;
+          font-family: cursive;
+          font-weight: 100;
+          margin-top: 40px;
+          left: 15%;
+        "
+      >
+        Our Story
+      </h1>
+      <p class="sidepara" style="color: #000; left: 5%">
+        Sunscape is a Destination Management Company headquartered in Trichy,
+        Tamilnadu with branches across India. Over the past 2 decades, we built
+        our solid reputation on the quality of the service we offer. We offer
+        tailor-made tour packages in India focusing on culture, nature and
+        wildlife, beaches, cuisine, art or any combination of these and more.
+      </p>
+      <img
+        style="margin-left: 50%"
+        class="sideimg"
+        src="https://www.cholantours.com/public/uploads/home_welcome_video_bg.jpg"
+        alt="story"
+      />
+    </div>
+    <div style="position: relative">
+      <img
+        class="sideimg"
+        src="https://fortunetours.in/wp-content/uploads/2023/11/Andaman.jpg"
+        alt="tour"
+      />
+      <h1
+        style="
+          position: absolute;
+          text-align: center;
+          color: #000;
+          font-family: cursive;
+          font-weight: 100;
+          margin-top: 40px;
+          right: 17%;
+        "
+      >
+        Why Sunscape ?
+      </h1>
+      <ul class="sidepara">
+        <li>We commit to what we provide</li>
+        <li>
+          Your clients get the widest choice of accommodation from luxury hotels
+          to small guesthouses.
+        </li>
+        <li>You shall guarantee a commendable service to your clients.</li>
+        <li>
+          We pay real attention to little things that make a big difference to
+          your clients’ tours.
+        </li>
+        <li>
+          Every holiday is tailor-made to each of your client’s specific
+          requirements.
+        </li>
+        <li>
+          Only a Regional Tour Operator can give you a competitive edge over
+          others
+        </li>
+      </ul>
+    </div>
+    <table class="about" style="justify-self: center">
+      <tr>
+        <td>
+          <img
+            src="https://www.gtholidays.in/wp-content/uploads/2022/12/Abroad-Trips.png"
+            alt=""
+          />
+          <h2 style="margin-left: 30px">50,000+</h2>
+          <h2 style="margin-left: 10px">Abroad Trips</h2>
+          <p
+            style="
+              font-size: medium;
+              color: gray;
+              width: 150px;
+              margin-top: 10px;
+            "
+          >
+            Sunscape have organized more than 50,000 international itineraries.
+          </p>
+        </td>
+        <td>
+          <img
+            src="https://www.gtholidays.in/wp-content/uploads/2022/12/Experiences.png"
+            alt=""
+          />
+          <h2>Handcrafted</h2>
+          <h2>Experiences</h2>
+          <p
+            style="
+              font-size: medium;
+              color: gray;
+              width: 150px;
+              margin-top: 10px;
+            "
+          >
+            Each and every itinerary is customized according to the taste of the
+            customers.
+          </p>
+        </td>
+        <td>
+          <img
+            src="https://www.gtholidays.in/wp-content/uploads/2022/12/Travelers.png"
+            alt=""
+          />
+          <h2>Extremely Happy</h2>
+          <h2 style="margin-left: 30px">Travellers</h2>
+          <p
+            style="
+              font-size: medium;
+              color: gray;
+              width: 150px;
+              margin-top: 10px;
+            "
+          >
+            Sunscape holds record of great customer satisfaction and retained
+            with us.
+          </p>
+        </td>
+      </tr>
+    </table>
+    <h1
+      style="
+        margin-left: 8%;
+        color: #000;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 100;
+        margin-top: 20px;
+      "
+    >
+      Stress-Free Holidays with Sunscape
+    </h1>
+    <img
+      style="width: 50%; margin-left: 25%; margin-top: 30px"
+      src="packageimg.png"
+      alt="packages"
+    />
+    <h1
+      style="
+        margin-left: 8%;
+        color: #000;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 100;
+        margin-top: 40px;
+      "
+    >
+      Sunscape Premium Group Tours
+    </h1>
+    <img
+      style="width: 90%; margin-left: 100px; height: 70%"
+      src="premium packages.png"
+      alt="premium tours"
+    />
+    <button
+      style="
+        background-color: rgb(233, 157, 17);
+        color: white;
+        border: none;
+        outline: none;
+        padding: 15px;
+        font-size: medium;
+        font-weight: 600;
+        width: 200px;
+        margin-left: 44%;
+        margin-top: 10px;
+        cursor: pointer;
+      "
+    >
+      Know more
+    </button>
+    <h1
+      style="
+        margin-left: 8%;
+        color: #000;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 100;
+        margin-top: 40px;
+      "
+    >
+      Popular Packages
+    </h1>
+    <table
+      style="margin-left: 60px; border-collapse: collapse; margin-top: 20px"
+    >
+      <tr>
+        <td colspan="2" style="padding-left: 20px">
+          <div
+            class="hover-box"
+            style="background-image: url(p1.jpg); width: 900px"
+          >
+            <div class="overlay"></div>
+            <div class="hover-text">
+              <h2
+                style="
+                  font-family: Arial, Helvetica, sans-serif;
+                  line-height: 1.7;
+                "
+              >
+                Indian Tour Packages
+              </h2>
+              <button class="rightarrow">98 Tours</button>
+            </div>
+          </div>
+        </td>
+        <td style="padding-left: 20px">
+          <div class="hover-box" style="background-image: url(p2.jpg)">
+            <div class="overlay"></div>
+            <div class="hover-text">
+              <h2
+                style="
+                  font-family: Arial, Helvetica, sans-serif;
+                  line-height: 1.7;
+                "
+              >
+                International Tours
+              </h2>
+              <button class="rightarrow">362 Tours</button>
+            </div>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td style="padding-left: 20px">
+          <div class="hover-box" style="background-image: url(p3.jpg)">
+            <div class="overlay"></div>
+            <div class="hover-text">
+              <h2
+                style="
+                  font-family: Arial, Helvetica, sans-serif;
+                  line-height: 1.5;
+                "
+              >
+                International Honeymoon<br />Tours
+              </h2>
+              <button class="rightarrow">17 Tours</button>
+            </div>
+          </div>
+        </td>
+        <td style="padding-left: 20px">
+          <div class="hover-box" style="background-image: url(p4.jpg)">
+            <div class="overlay"></div>
+            <div class="hover-text">
+              <h2
+                style="
+                  font-family: Arial, Helvetica, sans-serif;
+                  line-height: 1.7;
+                "
+              >
+                Europe Tour Packages
+              </h2>
+              <button class="rightarrow">144 Tours</button>
+            </div>
+          </div>
+        </td>
+        <td style="padding-left: 20px">
+          <div class="hover-box" style="background-image: url(p5.webp)">
+            <div class="overlay"></div>
+            <div class="hover-text">
+              <h2
+                style="
+                  font-family: Arial, Helvetica, sans-serif;
+                  line-height: 1.7;
+                "
+              >
+                Educational Tour Packages
+              </h2>
+              <button class="rightarrow">15 Tours</button>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <div></div>
+    <section>
+      <div style="position: relative">
+        <img
+          style="
+            width: 100%;
+            margin-left: 0%;
+            margin-right: 0%;
+            margin-top: 30px;
+          "
+          src="https://www.shutterstock.com/image-vector/world-map-grayscaleisolated-on-white-600nw-2490636773.jpg"
+          alt=""
+        />
+        <h1
+          style="
+            font-family: Arial, Helvetica, sans-serif;
+            position: absolute;
+            margin-top: 20%;
+            left: 20%;
+          "
+        >
+          Stay Connected
+        </h1>
+        <img
+          style="width: 40px; position: absolute; margin-top: 23%; left: 26%"
+          src="https://img.icons8.com/?size=100&id=ufkkYBXJSuPy&format=png&color=000000"
+          alt=""
+        />
+        <h3
+          style="
+            font-weight: 200;
+            position: absolute;
+            margin-top: 26%;
+            left: 22%;
+            cursor: pointer;
+            color: rgb(76, 75, 75);
+          "
+        >
+          +91 0123456789
+        </h3>
+        <hr
+          style="
+            width: 250px;
+            position: absolute;
+            margin-top: 29%;
+            left: 19%;
+            color: #000;
+          "
+        />
+        <img
+          style="width: 40px; position: absolute; margin-top: 31%; left: 26%"
+          src="https://img.icons8.com/?size=100&id=cHNRcWMI2bLJ&format=png&color=000000"
+          alt=""
+        />
+        <h3
+          style="
+            font-weight: 200;
+            position: absolute;
+            margin-top: 34%;
+            left: 21%;
+            cursor: pointer;
+            color: rgb(76, 75, 75);
+          "
+        >
+          sunscapeexample@gmail.com
+        </h3>
+        <h1
+          style="
+            position: absolute;
+            color: #000;
+            font-family: 'Times New Roman', Times, serif;
+            margin-top: 140px;
+            right: 11%;
+          "
+        >
+          Book Your Dream Vacay Today!
+        </h1>
+        <table class="query">
+          <tr>
+            <td>
+              <input type="text" id="name" placeholder="Name * (Demo Only)" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                id="city"
+                placeholder="City of Residence * (Demo Only)"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" id="email" placeholder="Email * (Demo Only)" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                id="phone"
+                placeholder="Phone Number * (Demo Only)"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                id="whatsapp"
+                placeholder="Whatsap Number (Demo Only)"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                id="destination"
+                placeholder="Travel Destination * (Demo Only)"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                id="date"
+                placeholder="Date of Travel * (Demo Only)"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="number"
+                id="people"
+                placeholder="No. of People * (Demo Only)"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <select name="vacationtype" id="vacationtype">
+                <option value="">Vacation Type *</option>
+                <option>Honeymoon</option>
+                <option>Friends Trip</option>
+                <option>Family Trip</option>
+                <option>Corporate</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p
+                id="error-msg"
+                style="color: rgb(11, 11, 11); font-size: 14px; display: none"
+              ></p>
+            </td>
+          </tr>
+          <tr>
+            <td><button id="querybtn">Query</button></td>
+          </tr>
+        </table>
+        <p
+          style="
+            text-align: center;
+            font-size: medium;
+            color: gray;
+            margin-top: 10px;
+          "
+        >
+          * This is a demo form. No data is submitted or collected.
+        </p>
+      </div>
+    </section>
+    <div
+      style="
+        background-color: rgb(65, 65, 65);
+        width: 99.9%;
+        height: 50vh;
+        margin-bottom: 0%;
+        margin-left: 0px;
+        border-radius: 0%;
+        margin-top: 50px;
+        position: relative;
+      "
+    >
+      <table class="footer">
+        <tr>
+          <td><h1>Corporate Office</h1></td>
+          <td><h1>Head Office</h1></td>
+          <td><h1 id="contactSection">Contact Us</h1></td>
+        </tr>
+        <tr>
+          <td><hr style="width: 230px" /></td>
+          <td><hr style="width: 200px" /></td>
+          <td><hr style="width: 200px" /></td>
+        </tr>
+        <tr>
+          <td>
+            <p>
+              Sunscape Pvt LTD, Novel Tech Park, Opposite to 1 MG Mall, MG Road,
+              Bangalore – 560042 Karnataka, India.
+            </p>
+          </td>
+          <td>
+            <p>
+              Sunscape Pvt LTD, No.1, Gemini Parsn, Kodambakkam High Road,
+              Nungambakkam, Chennai – 600006 Tamil Nadu, India.
+            </p>
+          </td>
+          <td>
+            <p>📞 0123456789</p>
+            <p>📩 sunscapeexample@gmail.com</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+  <script src="project1.js"></script>
+</html>

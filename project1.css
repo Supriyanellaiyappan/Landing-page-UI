@@ -1,0 +1,253 @@
+* {
+  margin: 0px;
+  top: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+div {
+  margin: 10px;
+  border-radius: 20px;
+}
+.slide {
+  margin: 0 !important;
+  padding: 0;
+}
+div table {
+  position: absolute;
+  margin-top: 18px;
+  margin-left: 54%;
+}
+div table td {
+  padding-left: 40px;
+}
+div table button {
+  background: none;
+  border: none;
+  outline: none;
+  color: aliceblue;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding: 15px;
+  font-size: medium;
+  border-radius: 10px;
+}
+div table button:hover {
+  background-color: rgb(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+.sideimg {
+  width: 49%;
+  height: 500px;
+  margin: 20px;
+}
+.sidepara {
+  width: 40%;
+  margin-top: 8%;
+  position: absolute;
+  right: 4%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: brown;
+  font-size: x-large;
+  line-height: 1.5;
+}
+.about td {
+  padding: 50px 100px;
+}
+.about img {
+  width: 70%;
+}
+.about h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+  font-size: larger;
+}
+.wrapper {
+  width: 100%;
+  margin-top: 30px;
+}
+.menu {
+  width: 100%;
+  display: flex;
+  margin: 0;
+  border-radius: 0;
+  justify-content: flex-start;
+  background-color: black;
+}
+.menu button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 10px 75px;
+  border-bottom: 3px solid transparent;
+  transition: border-color 0.3s;
+}
+.menu button.active {
+  border-color: #ff4500;
+  font-weight: bold;
+}
+.image-container {
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  height: 600px;
+  overflow: hidden;
+  border-radius: 0%;
+  position: relative;
+}
+.slider {
+  width: 100%;
+  display: flex;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  transition: transform 1s ease;
+  will-change: transform;
+}
+.slide {
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  position: relative;
+}
+.slide video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.hover-box {
+  width: 430px;
+  height: 350px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  border-radius: 15px;
+  position: relative;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+.hover-box:hover {
+  transform: scale(0.9);
+}
+.overlay {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 0px;
+  height: 100%;
+  width: 102%;
+  background: rgba(58, 56, 56, 0.5);
+  z-index: 1;
+  transition: opacity 0.3s ease;
+}
+.hover-box:hover .overlay {
+  opacity: 0;
+}
+.hover-text {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin-top: 110px;
+}
+.rightarrow {
+  background: rgb(243, 167, 25);
+  border: none;
+  outline: none;
+  width: 150px;
+  padding: 15px;
+  margin-top: 10px;
+  font-weight: 550;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.query {
+  margin-top: 178px;
+  position: absolute;
+  right: 9%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.query td {
+  padding: 10px;
+}
+.query input {
+  padding: 10px;
+  border: solid 1px rgb(148, 146, 146);
+  outline: none;
+  width: 400px;
+  color: black;
+}
+.query input::placeholder {
+  color: black;
+}
+.query select {
+  padding: 10px;
+  border: solid 1px rgb(148, 146, 146);
+  outline: none;
+  width: 400px;
+}
+#querybtn {
+  background-color: rgb(233, 157, 17);
+  color: white;
+  border: none;
+  outline: none;
+  padding: 15px;
+  font-size: medium;
+  font-weight: 600;
+  width: 400px;
+  cursor: pointer;
+  border-radius: 0%;
+}
+#querybtn:hover {
+  background-color: black;
+  color: rgb(240, 248, 255, 0.8);
+}
+
+.footer {
+  position: absolute;
+  margin-left: 18%;
+}
+.footer td {
+  padding: 20px 50px;
+}
+.footer h1 {
+  color: whitesmoke;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: x-large;
+  font-weight: 6;
+}
+.footer p {
+  color: whitesmoke;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: medium;
+  width: 200px;
+}
